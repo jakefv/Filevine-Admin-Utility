@@ -1,2 +1,2 @@
 # FV-Admin-Toolbar
-A chrome extension that creates shortcuts for Filevnie Adminstrators.
+A chrome extension that creates shortcuts for Filevine Adminstrators.
