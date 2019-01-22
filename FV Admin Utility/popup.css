@@ -1,0 +1,17 @@
+body {
+width: 250px;
+}
+.spacer {
+  padding: 20px;
+}
+.noselect {
+  user-select: none;
+}
+.btn {
+  width:100%;
+  margin: 5px;
+}
+.form-check {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}

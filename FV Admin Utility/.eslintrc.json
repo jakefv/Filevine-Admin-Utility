@@ -1,0 +1,11 @@
+{
+  "env": {
+    "browser": true,
+    "webextensions": true,
+    "es6": true
+  },
+  "rules": {
+    "no-console": 0
+  },
+  "extends": "eslint:recommended"
+}

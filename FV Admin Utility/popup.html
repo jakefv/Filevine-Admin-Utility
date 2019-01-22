@@ -2,47 +2,32 @@
 <html>
 
 <head>
-    <link href="bootstrap.min.css" rel="stylesheet">
-    <script scr="bootstrap.min.js"></script>
-    <script type="text/javascript" src="popup.js"></script>
-    <style>
-        body {
-        width: 250px;
-        }
-        .spacer {
-          padding: 20px;
-        }
-        .noselect {
-          user-select: none;
-        }
-        .btn {
-          width:100%;
-          margin: 5px;
-        }
-        .form-check {
-          padding-top: 5px;
-          padding-bottom: 5px;
-        }
-    </style>
+  <link href="bootstrap.min.css" rel="stylesheet">
+  <script scr="bootstrap.min.js"></script>
+  <script type="text/javascript" src="popup.js"></script>
+  <link href="popup.css" rel="stylesheet">
 </head>
 
 <body>
-    <div class="spacer">
-        <form>
-            <div class="form-check">
-                <input type="checkbox" class="form-check-input" id="saveOrg">
-                <label class="noselect font-weight-bold form-check-label" for="saveOrg">Save Org</label>
-            </div>
-            <div class="form-group">
-                <textarea type="text" class="form-control" id="currentOrg" placeholder="Org name here."></textarea>
-            </div>
-        </form>
-        <div>
-            <button type="button" class="btn btn-primary" id="getOrg">Get Current Org</button>
-            <button type="button" class="btn btn-primary" id="gotoFields">Go to DocGen Fields</button>
-            <button type="button" class="btn btn-primary" id="exportEmails">Export Emails</button>
-        </div>
+  <div class="spacer">
+    <form>
+      <!-- Checkbox, if I want it later.
+      <div class="form-check">
+        <input type="checkbox" class="form-check-input" id="saveOrg">
+        <label class="noselect font-weight-bold form-check-label" for="saveOrg">Saved Org:</label>
+      </div>
+    -->
+      <div class="form-group">
+        <label class="noselect font-weight-bold form-check-label" for="currentOrg">Saved Org:</label>
+        <textarea type="text" class="form-control" id="currentOrg" placeholder="Org name here."></textarea>
+      </div>
+    </form>
+    <div>
+      <button type="button" class="btn btn-primary" id="getOrg">Get Current Org</button>
+      <button type="button" class="btn btn-primary" id="gotoFields">Go to DocGen Fields</button>
+      <button type="button" class="btn btn-primary" id="exportEmails">Export Emails</button>
     </div>
+  </div>
 </body>
 
 </html>

@@ -1,19 +1,32 @@
 {
-    "name": "Filevine Admin Utility",
-    "version": "1.0",
-    "description": "Navigation and task shortcuts for admins.",
-    "permissions": ["downloads", "declarativeContent", "storage", "https://app.filevine.com/*", "https://app.filevine.ca/*"],
-    "browser_action":
-    {
-        "default_icon": "images/fv-64.png",
-        "default_popup": "popup.html"
+  "name": "Filevine Admin Utility",
+  "version": "1.0",
+  "description": "Navigation and task shortcuts for admins.",
+  "permissions": ["downloads", "declarativeContent", "storage", "https://app.filevine.com/*", "https://app.filevine.ca/*"],
+  "page_action": {
+    "default_icon": {
+      "16": "images/icon16.png",
+      "32": "images/icon32.png",
+      "48": "images/icon48.png",
+      "64": "images/icon64.png",
+      "128": "images/icon128.png"
     },
-    "icons":
-    {
-        "16": "images/fv-16.png",
-        "32": "images/fv-32.png",
-        "48": "images/fv-64.png",
-        "128": "images/fv-128.png"
-    },
-    "manifest_version": 2
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "content_scripts": [{
+    "matches": ["https://app.filevine.com/*", "https://app.filevine.ca/*"],
+    "js": ["contentScript.js"]
+  }],
+  "icons": {
+    "16": "images/icon16.png",
+    "32": "images/icon32.png",
+    "48": "images/icon48.png",
+    "64": "images/icon64.png",
+    "128": "images/icon128.png"
+  },
+  "manifest_version": 2
 }
