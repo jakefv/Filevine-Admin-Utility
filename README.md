@@ -6,7 +6,8 @@ The Filevine Admin Utility is a shoddily coded, undoubtedly buggy, Google Chrome
 
 1. [Download the unpacked extension](https://github.com/jakefv/FV-Admin-Toolbar/archive/master.zip)
 2. Navigate to the Chrome extensions: chrome://extensions/
-3. While in Filevine, click on the blue puzzle piece icon in the top right to open the popup menu
+3. Click "Load Unpacked" and select the downloaded file
+4. While in Filevine, click on the blue puzzle piece icon in the top right to open the popup menu
 
 -----
 
