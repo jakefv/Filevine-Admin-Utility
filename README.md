@@ -1,6 +1,6 @@
 # Filevine Admin Utility
 
-The Filevine Admin Utility is a shoddily coded, undoubtedly buggy, Google Chrome extension (built in a flurry over a single weekend) that hopefully reduces the number of clicks Filevine CS Team members have to perform day-to-day. The extension literally just clicks elements in sequence for you or exports data out that would normally be exported by cutting and pasting.
+The Filevine Admin Utility is a Google Chrome extension (built in a flurry over a single weekend) that hopefully reduces the number of clicks Filevine CS Team members have to perform day-to-day. The extension literally just clicks elements in sequence for you or exports data out that would normally be exported by cutting and pasting.
 
 ## Installation
 
