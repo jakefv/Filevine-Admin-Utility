@@ -12,7 +12,7 @@ The Filevine Admin Utility is a shoddily coded, undoubtedly buggy, Google Chrome
 
 ## Functions:
 
-_*Note: all of the functions below require privleges. For example, if you do not have DocGen priveleges for a specific project,  you cannot see its fields._
+_*Note: all of the functions below require privileges. For example, if you do not have DocGen privileges for a specific project,  you cannot see its fields._
 
 #### Saved Org
 
@@ -24,11 +24,11 @@ Opens vitals and puts the Org Name of a project you are viewing into the Saved O
 
 #### Go to DocGen fields
 
-If on a custom section, this button will havigate to that section's DocGen Fields page for you (even in absence of DocGen buttons!). For collections, at least one item needs to be created.
+If on a custom section, this button will navigate to that section's DocGen Fields page for you (even in absence of DocGen buttons!). For collections, at least one item needs to be created.
 
 #### Export Emails
 
-Indescriminately exports all unique instance of emails on a page. Particularly useful for copying users from Setup > Orgs > Members
+Indiscriminately exports all unique instance of emails on a page. Particularly useful for copying users from Setup > Orgs > Members
 
 ## Known Issues:
 
