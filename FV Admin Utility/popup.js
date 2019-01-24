@@ -21,17 +21,9 @@ chrome.runtime.onMessage.addListener(function(msg, sender, response) {
   }
 });
 document.addEventListener('DOMContentLoaded', function() {
-  //sets checkbox and textbox to saved value on load.
   chrome.storage.local.get(['toggle', 'org'], function(data) {
     //document.getElementById('saveOrg').checked = data.toggle;
-    if (data.org.length === 0) {
-      document.getElementById('currentOrg').value = defaultOrg;
-      chrome.storage.local.set({
-        org: defaultOrg
-      });
-    } else {
-      document.getElementById('currentOrg').value = data.org;
-    }
+    document.getElementById('currentOrg').value = data.org;
   });
   //button listeners
   document.getElementById('gotoFields').addEventListener('click', runScript);
