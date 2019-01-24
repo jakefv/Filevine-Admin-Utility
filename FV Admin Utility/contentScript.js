@@ -37,6 +37,7 @@ function onMutation(mutations) {
     if (!added || (added.localName !== 'button' && !added.children.length)) {
      return;
     }
+  }
 
   for (var i = 0, len = buttons.length; i < len; i++) {
     var button = buttons[i];
