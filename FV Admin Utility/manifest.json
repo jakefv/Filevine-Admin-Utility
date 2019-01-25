@@ -1,6 +1,6 @@
 {
   "name": "Filevine Admin Utility",
-  "version": "1.0",
+  "version": "1.1",
   "description": "Navigation and task shortcuts for admins.",
   "permissions": ["downloads", "declarativeContent", "storage", "https://app.filevine.com/*", "https://app.filevine.ca/*"],
   "page_action": {
