@@ -48,13 +48,10 @@ function onMutation(mutations) {
     while (walker.nextNode()) {
       var buttonNode = walker.currentNode;
       var text = buttonNode.nodeValue;
-      if (text.match(/Choose an Org/)) {
+      if (text.match(/Choose an Org/) && gettingElementByText(currentOrg)) {
         document.getElementById("org-chooser").click();
-        try{
-          gettingElementByText(currentOrg).click();
-        }
-        catch(error) {
-        }
+        gettingElementByText(currentOrg).click();
+
       }
     }
   }
