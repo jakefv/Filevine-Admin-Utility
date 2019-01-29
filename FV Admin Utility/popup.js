@@ -29,6 +29,7 @@ document.addEventListener('DOMContentLoaded', function() {
   document.getElementById('gotoFields').addEventListener('click', runScript);
   document.getElementById('exportEmails').addEventListener('click', runScript);
   document.getElementById('getOrg').addEventListener('click', runScript);
+  document.getElementById('downloadDocs').addEventListener('click', runScript);
   //document.getElementById('saveOrg').addEventListener('change', FsaveOrg);
   document.getElementById('currentOrg').addEventListener('change', FcurrentOrg);
 });
