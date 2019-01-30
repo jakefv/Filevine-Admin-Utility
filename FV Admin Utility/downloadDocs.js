@@ -4,11 +4,11 @@ function delay() {
 
 async function delayedLog(node) {
   await delay();
-  console.log(node);
   node.click();
 }
 
-async function processArray(list) {
+
+async function processArray(nodelist) {
   if (timer === null) {
     alert("Suit yourself. I didn't want to download anything for you anyway.");
   } else {
@@ -16,10 +16,9 @@ async function processArray(list) {
       alert("This tool only works on the Filevine Docs page!")
       return;
     }
-    for (const node of list) {
+    for (const node of nodelist) {
       await delayedLog(node);
     }
-    console.log('Done!');
   }
 }
 
